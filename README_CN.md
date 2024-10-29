@@ -1,3 +1,7 @@
+這是 Minecraft-Transit-Railway/Minecraft-Mappings 的一個分支，專門用於 Octagon Modding 專案。這實現了 Minecraft Transit Railway 及其插件不需要的新類，例如劍，但與原始項目保持接近，也可以從其中的添加中受益。這不是 Octagon Modding mods 生產中附帶的版本，因為那是該庫的縮減版本。如果原始版本想要/需要此處所做的更改，我們將很樂意為上游做出貢獻。
+
+原始自述文件：
+
 ### 中文 [English](README.md)
 
 # Minecraft Mappings
