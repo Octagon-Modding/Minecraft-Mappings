@@ -1,3 +1,7 @@
+This is a fork of Minecraft-Transit-Railway/Minecraft-Mappings specifically for use in Octagon Modding projects. This implements new classes that are unneeded by Minecraft Transit Railway and its addons, such as swords, but staying close to the original project to benefit from additions there too. This is not the version that is shipped in production of Octagon Modding mods, as that is a cut down version of this library. If changes made here are wanted/needed by the original, we will be happy to contribute upstream.
+
+Original README:
+
 ### [中文](README_CN.md) English
 
 # Minecraft Mappings
