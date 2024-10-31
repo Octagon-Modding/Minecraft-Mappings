@@ -217,6 +217,7 @@ public final class ClassScannerTest {
 		scanner.put("TextFormatting", Formatting.class);
 		scanner.put("TextRenderer", TextRenderer.class);
 		scanner.put("TextureManager", TextureManager.class);
+		scanner.put("ToolMaterial", ToolMaterial.class);
 		scanner.put("TooltipContext", TooltipContext.class);
 		scanner.put("Util", Util.class);
 		scanner.put("Vector3d", Vec3d.class);
