@@ -76,4 +76,4 @@ jobs:
           name: Minecraft Methods
           path: build/libraryMethods/
       - name: Stop all daemons
-        run: ./gradle --stop
+        run: ./gradlew --stop
