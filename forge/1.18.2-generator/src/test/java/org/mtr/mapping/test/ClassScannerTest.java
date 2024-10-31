@@ -280,6 +280,7 @@ public final class ClassScannerTest {
 		scanner.putAbstract("Entity", Entity.class, "getType");
 		scanner.putAbstract("EntityModel", EntityModel.class);
 		scanner.putAbstract("FenceBlock", FenceBlock.class);
+		scanner.putAbstract("HoeItem", HoeItem.class);
 		scanner.putAbstract("Item", Item.class);
 		scanner.putAbstract("Model", Model.class);
 		scanner.putAbstract("MovingSoundInstance", AbstractTickableSoundInstance.class);
@@ -289,6 +290,7 @@ public final class ClassScannerTest {
 		scanner.putAbstract("PlaceableOnWaterItem", WaterLilyBlockItem.class);
 		scanner.putAbstract("PressableWidget", AbstractButton.class);
 		scanner.putAbstract("Screen", Screen.class);
+		scanner.putAbstract("ShovelItem", ShovelItem.class);
 		scanner.putAbstract("SlabBlock", SlabBlock.class, "getRespawnPosition", "isValidSpawn");
 		scanner.putAbstract("SliderWidget", AbstractSliderButton.class);
 		scanner.putAbstract("SpriteBillboardParticle", TextureSheetParticle.class);
