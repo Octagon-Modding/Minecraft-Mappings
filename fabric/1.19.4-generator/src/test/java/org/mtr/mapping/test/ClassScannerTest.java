@@ -79,7 +79,6 @@ import net.minecraft.world.biome.source.BiomeSource;
 import net.minecraft.world.chunk.*;
 import net.minecraft.world.dimension.DimensionOptions;
 import net.minecraft.world.dimension.DimensionType;
-import net.minecraft.world.item.*;
 import net.minecraft.world.explosion.Explosion;
 import net.minecraft.world.gen.chunk.ChunkGenerator;
 import org.joml.Matrix3f;

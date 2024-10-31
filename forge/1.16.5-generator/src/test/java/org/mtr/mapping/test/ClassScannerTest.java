@@ -81,7 +81,6 @@ import net.minecraft.world.biome.provider.BiomeProvider;
 import net.minecraft.world.chunk.*;
 import net.minecraft.world.gen.ChunkGenerator;
 import net.minecraft.world.gen.Heightmap;
-import net.minecraft.world.item.*;
 import net.minecraft.world.server.ServerChunkProvider;
 import net.minecraft.world.server.ServerWorld;
 import net.minecraft.world.storage.CommandStorage;
