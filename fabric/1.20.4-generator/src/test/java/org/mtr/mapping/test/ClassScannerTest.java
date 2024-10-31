@@ -257,6 +257,7 @@ public final class ClassScannerTest {
 		scanner.putAbstract("SliderWidget", SliderWidget.class);
 		scanner.putAbstract("SpriteBillboardParticle", SpriteBillboardParticle.class);
 		scanner.putAbstract("StairsBlock", StairsBlock.class);
+		scanner.putAbstract("SwordItem", SwordItem.class);
 		scanner.putAbstract("TextFieldWidget", TextFieldWidget.class);
 		scanner.putAbstract("TexturedButtonWidget", TexturedButtonWidget.class);
 		scanner.putAbstract("ToggleButtonWidget", ToggleButtonWidget.class);

@@ -262,6 +262,7 @@ public final class ClassScannerTest {
 		scanner.putAbstract("SliderWidget", AbstractSlider.class);
 		scanner.putAbstract("SpriteBillboardParticle", SpriteTexturedParticle.class);
 		scanner.putAbstract("StairsBlock", StairsBlock.class, "canCreatureSpawn", "getBedSpawnPosition", "getRespawnPosition");
+		scanner.putAbstract("SwordItem", SwordItem.class);
 		scanner.putAbstract("TextFieldWidget", TextFieldWidget.class);
 		scanner.putAbstract("TexturedButtonWidget", ImageButton.class);
 		scanner.putAbstract("ToggleButtonWidget", ToggleWidget.class);
