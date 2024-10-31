@@ -222,7 +222,7 @@ public final class ClassScannerTest {
 		scanner.put("TextFormatting", TextFormatting.class);
 		scanner.put("TextRenderer", FontRenderer.class);
 		scanner.put("TextureManager", TextureManager.class);
-		scanner.put("ToolMaterial", Tier.class);
+		scanner.put("ToolMaterial", IItemTier.class);
 		scanner.put("TooltipContext", ITooltipFlag.class);
 		scanner.put("Util", Util.class);
 		scanner.put("Vector3d", Vector3d.class);
