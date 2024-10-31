@@ -268,6 +268,7 @@ public final class ClassScannerTest {
 		scanner.put("WorldRenderer", LevelRenderer.class);
 		scanner.put("WorldSavePath", LevelResource.class);
 		scanner.putAbstract("AbstractSoundInstance", AbstractSoundInstance.class);
+		scanner.putAbstract("AxeItem", AxeItem.class);
 		scanner.putAbstract("BillboardParticle", SingleQuadParticle.class);
 		scanner.putAbstract("Block", Block.class, "canCreatureSpawn", "getRespawnPosition");
 		scanner.putAbstract("BlockEntity", BlockEntity.class, "getType");
@@ -284,6 +285,7 @@ public final class ClassScannerTest {
 		scanner.putAbstract("MovingSoundInstance", AbstractTickableSoundInstance.class);
 		scanner.putAbstract("Particle", Particle.class);
 		scanner.putAbstract("PersistentState", SavedData.class);
+		scanner.putAbstract("PickaxeItem", PickaxeItem.class);
 		scanner.putAbstract("PlaceableOnWaterItem", WaterLilyBlockItem.class);
 		scanner.putAbstract("PressableWidget", AbstractButton.class);
 		scanner.putAbstract("Screen", Screen.class);

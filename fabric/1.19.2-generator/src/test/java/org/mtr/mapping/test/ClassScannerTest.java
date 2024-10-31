@@ -79,6 +79,7 @@ import net.minecraft.world.biome.source.BiomeSource;
 import net.minecraft.world.chunk.*;
 import net.minecraft.world.dimension.DimensionOptions;
 import net.minecraft.world.dimension.DimensionType;
+import net.minecraft.world.item.*;
 import net.minecraft.world.explosion.Explosion;
 import net.minecraft.world.gen.chunk.ChunkGenerator;
 import org.junit.jupiter.api.Test;
@@ -231,6 +232,7 @@ public final class ClassScannerTest {
 		scanner.put("WorldRenderer", WorldRenderer.class);
 		scanner.put("WorldSavePath", WorldSavePath.class);
 		scanner.putAbstract("AbstractSoundInstance", AbstractSoundInstance.class);
+		scanner.putAbstract("AxeItem", AxeItem.class);
 		scanner.putAbstract("BillboardParticle", BillboardParticle.class);
 		scanner.putAbstract("Block", Block.class);
 		scanner.putAbstract("BlockEntity", BlockEntity.class, "getType");
@@ -247,6 +249,7 @@ public final class ClassScannerTest {
 		scanner.putAbstract("MovingSoundInstance", MovingSoundInstance.class);
 		scanner.putAbstract("Particle", Particle.class);
 		scanner.putAbstract("PersistentState", PersistentState.class);
+		scanner.putAbstract("PickaxeItem", PickaxeItem.class);
 		scanner.putAbstract("PlaceableOnWaterItem", PlaceableOnWaterItem.class);
 		scanner.putAbstract("PressableWidget", PressableWidget.class);
 		scanner.putAbstract("Screen", Screen.class);

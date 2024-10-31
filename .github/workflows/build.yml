@@ -7,6 +7,15 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@main
+      - name: Caching
+        uses: actions/cache@v4
+        with:
+          path: |
+            ~/.gradle/caches
+            ~/.gradle/wrapper
+          key: ${{ runner.os }}-gradle-${{ hashFiles('**/*.gradle*', '**/gradle-wrapper.properties') }}
+          restore-keys: |
+            ${{ runner.os }}-gradle-
       - name: Validate gradle wrapper
         uses: gradle/wrapper-validation-action@main
       - name: Setup JDK 17
@@ -66,3 +75,5 @@ jobs:
         with:
           name: Minecraft Methods
           path: build/libraryMethods/
+      - name: Stop all daemons
+        run: ./gradle --stop

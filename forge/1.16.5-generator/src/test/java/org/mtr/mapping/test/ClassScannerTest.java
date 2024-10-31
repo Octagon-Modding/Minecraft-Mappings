@@ -81,6 +81,7 @@ import net.minecraft.world.biome.provider.BiomeProvider;
 import net.minecraft.world.chunk.*;
 import net.minecraft.world.gen.ChunkGenerator;
 import net.minecraft.world.gen.Heightmap;
+import net.minecraft.world.item.*;
 import net.minecraft.world.server.ServerChunkProvider;
 import net.minecraft.world.server.ServerWorld;
 import net.minecraft.world.storage.CommandStorage;
@@ -239,6 +240,7 @@ public final class ClassScannerTest {
 		scanner.put("WorldRenderer", WorldRenderer.class);
 		scanner.put("WorldSavePath", FolderName.class);
 		scanner.putAbstract("AbstractSoundInstance", LocatableSound.class);
+		scanner.putAbstract("AxeItem", AxeItem.class);
 		scanner.putAbstract("Block", Block.class, "canCreatureSpawn", "getBedSpawnPosition", "getRespawnPosition");
 		scanner.putAbstract("BillboardParticle", TexturedParticle.class);
 		scanner.putAbstract("BlockEntity", TileEntity.class, "getType");
@@ -255,6 +257,7 @@ public final class ClassScannerTest {
 		scanner.putAbstract("MovingSoundInstance", TickableSound.class);
 		scanner.putAbstract("Particle", Particle.class);
 		scanner.putAbstract("PersistentState", WorldSavedData.class);
+		scanner.putAbstract("PickaxeItem", PickaxeItem.class);
 		scanner.putAbstract("PlaceableOnWaterItem", LilyPadItem.class);
 		scanner.putAbstract("PressableWidget", AbstractButton.class);
 		scanner.putAbstract("Screen", Screen.class);
