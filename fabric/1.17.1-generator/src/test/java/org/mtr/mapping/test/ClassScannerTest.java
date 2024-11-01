@@ -51,6 +51,7 @@ import net.minecraft.network.PacketByteBuf;
 import net.minecraft.particle.DefaultParticleType;
 import net.minecraft.particle.ParticleEffect;
 import net.minecraft.particle.ParticleTypes;
+import net.minecraft.recipe.Ingredient;
 import net.minecraft.resource.Resource;
 import net.minecraft.resource.ResourceManager;
 import net.minecraft.scoreboard.*;
@@ -146,6 +147,7 @@ public final class ClassScannerTest {
 		scanner.put("HitResult", HitResult.class);
 		scanner.put("HitResultType", HitResult.Type.class);
 		scanner.put("Identifier", Identifier.class);
+		scanner.put("Ingredient", Ingredient.class);
 		scanner.put("IntegerProperty", IntProperty.class);
 		scanner.put("InternalFormat", NativeImage.InternalFormat.class);
 		scanner.put("Inventory", Inventory.class);

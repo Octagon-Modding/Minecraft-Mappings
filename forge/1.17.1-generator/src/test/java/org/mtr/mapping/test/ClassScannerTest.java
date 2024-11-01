@@ -182,6 +182,7 @@ public final class ClassScannerTest {
 		scanner.put("HitResult", HitResult.class);
 		scanner.put("HitResultType", HitResult.Type.class);
 		scanner.put("Identifier", ResourceLocation.class);
+		scanner.put("Ingredient", Ingredient.class);
 		scanner.put("IntegerProperty", IntegerProperty.class);
 		scanner.put("InternalFormat", NativeImage.InternalGlFormat.class);
 		scanner.put("Inventory", Container.class);

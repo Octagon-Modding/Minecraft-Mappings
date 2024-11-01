@@ -153,6 +153,7 @@ public final class ClassScannerTest {
 		scanner.put("HitResult", RayTraceResult.class);
 		scanner.put("HitResultType", RayTraceResult.Type.class);
 		scanner.put("Identifier", ResourceLocation.class);
+		scanner.put("Ingredient", Ingredient.class);
 		scanner.put("IntegerProperty", IntegerProperty.class);
 		scanner.put("InternalFormat", NativeImage.PixelFormatGLCode.class);
 		scanner.put("Inventory", IInventory.class);
