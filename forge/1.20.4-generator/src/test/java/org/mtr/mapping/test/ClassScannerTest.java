@@ -252,7 +252,7 @@ public final class ClassScannerTest {
 		scanner.put("TextFormatting", ChatFormatting.class);
 		scanner.put("TextRenderer", Font.class);
 		scanner.put("TextureManager", TextureManager.class);
-		scanner.put("ToolMaterial", Tier.class, "getAttackDamageBonus", "getSpeed", "getUses", "getEnchantmentValue", "getLevel");
+		scanner.put("ToolMaterial", Tier.class);
 		scanner.put("TooltipContext", TooltipFlag.class);
 		scanner.put("Util", Util.class);
 		scanner.put("Vector3d", Vec3.class);
